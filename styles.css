@@ -1,0 +1,84 @@
+*{
+    color: #fff;
+}
+
+body {
+    background-image: url('bg11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#carouselExampleCaptions {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+  }
+  
+  #carouselExampleCaptions .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  
+  #carouselExampleCaptions .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #carouselExampleCaptions .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  #carouselExampleCaptions .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #carouselExampleCaptions .carousel-control-prev-icon,
+  #carouselExampleCaptions .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+  }
+  
+  #carouselExampleCaptions .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  .about-section {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 700px;
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .about-section li{
+    text-align: left;
+  }
+
+  .quizbox{
+    margin: 50px auto;
+    max-width: 700px;
+  }
